@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    flex: 0 50px;
+    background: rgb(197, 121, 121);
+    padding-left: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonSection {
+    margin-top: 15px;
+}
+
+.inputRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*.inputDiv {*/
+/*    display: block;*/
+/*}*/
+
+footer {
+    flex: 0 50px;
+    background: rgb(197, 121, 121);
+    text-align: center;
+}
