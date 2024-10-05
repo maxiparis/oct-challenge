@@ -12,10 +12,8 @@ function computeDivisorsOfThree(array) {
     let count = 0;
     if (Array.isArray(array)) {
         for (let i = 0; i < array.length; i++) {
-            if (typeof array[i] == "number" && array[i] % 3 === 0) {
+            if (array[i] % 3 === 0) {
                 count++;
-            } else {
-                alert("Enter numbers");
             }
         }
         return count;
